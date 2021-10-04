@@ -57,7 +57,8 @@ class _MyHomePageState extends State<MyHomePage> {
                 },
                 color: Colors.green,
                 splashColor: Colors.red,
-                shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10.0)),
+                // shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10.0)),
+                shape: StadiumBorder(side: const BorderSide(color: Colors.white,width: 5)),
                 child: const Text("Click"),
               ),
               ElevatedButton.icon(
